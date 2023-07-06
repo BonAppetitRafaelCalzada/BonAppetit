@@ -84,6 +84,11 @@ html{
     padding: 10px 20px;
     border-radius: 30px;
 }
+#inicio header .contenido-header .social .subscribirse{
+    background-color: #0ab41e;
+    
+}
+
 
 /*CARRUSEL*/
 
@@ -407,6 +412,39 @@ html{
     color: #fff;
     margin-top: 15px;
     cursor: pointer;
+}
+
+
+/*ICONOS ESTATICOS*/
+.icon-list {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    list-style: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .icon-list li {
+    margin-bottom: 10px; /* Espacio entre cada icono, ajusta según tus necesidades */
+  }
+  
+  .icon-list img {
+    width: 70px; /* Ajusta el tamaño de los iconos según tus necesidades */
+  }
+  
+  
+
+
+
+.btn-wsp{
+    position: fixed;
+    width: 180px;
+    height: 180px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
 }
 
 /*SECCION RESPONSIVE*/
